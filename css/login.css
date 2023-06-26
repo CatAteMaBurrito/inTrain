@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --default-font: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--default-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+
+    outline: 2px solid grey;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.login__side {
+    padding-top: 125px;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+}
+
+.info {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.div__fill {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+
+}
+
+.fillup {
+    margin-top: 5px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.user__selection {
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user__btn {
+    border-radius: 5px;
+    height: 30px;
+    width: 85px;
+}
+
+.user__btn:hover {
+    margin-top: 2px;
+    color: white;
+    background: linear-gradient(300deg, deepskyblue, darkviolet, blue);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.btn__coor {
+    width: 100px;
+}
+
+.login__cookies {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
