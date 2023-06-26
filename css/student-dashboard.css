@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --default-font: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    background-color: rgb(211, 254, 255);
+    width: 600px;
+    font-family: var(--default-font);
+    border-radius: 10px;
+}
+
+.main__section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main__section h3 {
+    align-self: center;
+}
+
+.name__section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.first_name,
+.last_name {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fname,
+.lname {
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 30px;
+}
+
+.stduentid_de,
+.email_de,
+.contact__num {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+
+.stduentid,
+.email,
+.contactnum {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.dateofbirth {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#bday,
+#bmonth,
+#byear {
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+}
